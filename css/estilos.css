@@ -1,0 +1,51 @@
+div{
+    text-align: center;
+}
+header{
+    background-color: #e6e6e6 ;
+}
+h1, h2, p{
+    word-spacing: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #c4c4c4;
+    color: #005677;
+}
+h2{
+    text-align: left;
+    word-spacing: 0px;
+}
+span, dt, p{
+   font-weight: bold ;
+}
+p{
+    background-color: #005677;
+    color: white;
+    word-spacing: normal;
+}
+.title{
+    margin-top: 0;
+    margin-bottom: 90px;
+}
+.experiencia-laboral{
+    height: 210px;
+}
+footer img{
+    margin-top: 4px;
+}
+
+footer span{
+    vertical-align: super;
+}
+li span{
+    font-style: italic ;
+}
+dl{
+    padding-left: 30px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+li{
+    padding: 5px;
+}
