@@ -12,8 +12,8 @@ h1, h2, p{
     word-spacing: 20px;
     text-transform: uppercase;
     text-align: center;
-    background-color: #c4c4c4;
-    color: #005677;
+    background-color: #6cd8c0;
+    color: black;
 }
 h2{
     text-align: left;
@@ -23,7 +23,7 @@ span, dt, p{
    font-weight: bold ;
 }
 p{
-    background-color: #005677;
+    background-color: #04795f;
     color: white;
     word-spacing: normal;
 }
@@ -52,4 +52,7 @@ dl{
 }
 li{
     padding: 5px;
+}
+i{
+    color: white;
 }
