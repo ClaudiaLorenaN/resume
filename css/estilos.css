@@ -5,8 +5,20 @@ header{
     background-color: #e6e6e6 ;
     background-image: url('../img/website-hosting-concept-with-circuits.jpg');
     background-position: center center;
-    height: 20vh;
+    height: 45vh;
 
+}
+header > img {
+    display: block;
+    /*align-self: center;*/
+    margin-left: 500px;
+    height: 250px;
+    /*aspect-ratio: 1 / 1;*/
+    border-radius: 50%;
+}
+img {
+    /*overflow-clip-margin: content-box;
+    overflow: clip;*/
 }
 h1, h2, p{
     word-spacing: 20px;
