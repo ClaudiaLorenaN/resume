@@ -16,10 +16,6 @@ header > img {
     /*aspect-ratio: 1 / 1;*/
     border-radius: 50%;
 }
-img {
-    /*overflow-clip-margin: content-box;
-    overflow: clip;*/
-}
 h1, h2, p{
     word-spacing: 20px;
     text-transform: uppercase;
