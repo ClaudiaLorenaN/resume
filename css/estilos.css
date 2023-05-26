@@ -6,23 +6,36 @@ header{
     background-image: url('../img/website-hosting-concept-with-circuits.jpg');
     background-position: center center;
     height: 45vh;
-
 }
+
 header > img {
     display: block;
-    /*align-self: center;*/
     margin-left: 500px;
     height: 250px;
-    /*aspect-ratio: 1 / 1;*/
     border-radius: 50%;
 }
-h1, h2, p{
+
+h1, h2, p, .about-me{
     word-spacing: 20px;
     text-transform: uppercase;
     text-align: center;
     background-color: #6cd8c0;
     color: black;
+    background-image: none;
 }
+.about-me{
+    height: 15vh;
+    text-align: left;
+}
+
+/*about me*/
+section > p{
+    text-transform: none;
+    text-align: left;  
+    color: black;
+    font-weight: normal;
+}
+
 h2{
     text-align: left;
     word-spacing: 0px;
@@ -30,24 +43,21 @@ h2{
 span, dt, p{
    font-weight: bold ;
 }
-p{
+footer > p{
     background-color: #04795f;
     color: white;
     word-spacing: normal;
+    font-size: 20px;
 }
 .title{
     margin-top: 0;
-    margin-bottom: 90px;
-}
-.experiencia-laboral{
-    height: 210px;
 }
 footer img{
     margin-top: 4px;
 }
 
 footer span{
-    vertical-align: super;
+    vertical-align: center;
 }
 li span{
     font-style: italic ;
@@ -63,4 +73,23 @@ li{
 }
 i{
     color: white;
+    font-size:1.3em;
+    padding: 10px;
+    text-align: center;
+}
+
+.back-button{
+    font-size: 1.5em;
+}
+.text-about{
+    text-align: center;
+    padding: 20px 20px;
+    background-color: antiquewhite;
+}
+.text-about p{
+    word-spacing: normal;
+    background-color: antiquewhite;
+}
+.action-button{
+
 }
