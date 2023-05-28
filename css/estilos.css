@@ -11,9 +11,8 @@ header{
     background-color: #e6e6e6 ;
     background-image: url('../img/website-hosting-concept-with-circuits.jpg');
     background-size: cover;
-    height: 33vh;
-    flex-direction: column;
-    padding-bottom: 120px;
+    justify-content: center;
+    padding: 10px;
 }
 
 header > img {
@@ -110,14 +109,12 @@ i{
     margin-left: 20px;
     margin-bottom: 20px;
 }
-.action-button-about{
-    display: flex;
-    justify-content: center;
-    padding: 35px;
+
+.action-button-about {
     font-weight: 400;
     text-decoration: none;
-    padding-left: 15px;
     background-color: #d0f7ef;
+
 }
 
 ul{
@@ -134,5 +131,15 @@ section{
     color: rgb(27, 26, 26);
     word-spacing: normal;
     font-weight: 700;
+    margin: 10px;
 
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 16%;
+    margin-right: 16%;
+    list-style: none;
 }
